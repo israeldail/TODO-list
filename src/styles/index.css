@@ -1,12 +1,48 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+}
 
-/* 
+.title {
+    color: lightcoral;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul, li {
+    list-style-type: none;
+}
 
-*/
+li {
+    border: 2px solid coral;
+    width: 35%;
+    margin: auto;
+    padding: 20px;
+}
+
+input {
+    background-color: whitesmoke;
+    width: 75%;
+    line-height: 45px;
+    vertical-align: middle;
+    padding: 10px;
+    border: none;
+     
+}
+
+.X {
+    text-align: end;
+    margin-top: -35px;
+    opacity: 0;
+}
+
+p:hover {
+    opacity: 1;
+    color: red;
+    font-size: 20px;
+    transition: 0.5s ease-out 100ms;
+    cursor: pointer;
+}
+
+.inputLi2 {
+    pointer-events: none;
+}
